@@ -254,19 +254,7 @@ knitr::include_graphics("./img/log4.jpg")
 knitr::include_graphics("./img/log5.png")
 ```
 
----
 
-class: inverse
-
-## ATIVIDADES DA SEMANA
-
-.your-turn[
-Quem comporá cada grupo de trabalho?
-]
-
-.your-turn[
-Atividade preliminar 1 - individual - moodle
-]
 
 ---
 class: inverse, middle
@@ -275,6 +263,6 @@ class: inverse, middle
 # Obrigada!
 ]
 
-<a href="mailto:renataoliveira@gmail.com"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; renataoliveira@gmail.com</a><br>
+<a href="mailto:renataoliveira@cefetmg.br"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; renataoliveira@cefetmg.br</a><br>
 <a href="http://twitter.com/retaoliveira"><i class="fa fa-twitter fa-fw"></i>&nbsp; @retaoliveira</a><br>
 <a href="http://github.com/retaoliveira"><i class="fa fa-github fa-fw"></i>&nbsp; @retaoliveira</a><br>
