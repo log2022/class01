@@ -12,7 +12,7 @@
     <script src="libs/panelset/panelset.js"></script>
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"d4d024d542c64a4ebe4aa7fbc19d9082","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"b05e4f703e9042eaafd75dbff975e7c5","expires":1}</script>
     <script src="libs/himalaya/himalaya.js"></script>
     <script src="libs/js-cookie/js.cookie.js"></script>
     <link href="libs/editable/editable.css" rel="stylesheet" />
@@ -33,9 +33,15 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Apresentação da disciplina
+]
+.subtitle[
 ## Logística
+]
+.author[
 ### Renata Oliveira
+]
 
 ---
 
@@ -153,8 +159,6 @@ Pontos|	Atividade
 ---
 ## Recursos necessários
 
-Computador com Sistema Operacional à escolha do estudante, conexão à internet, câmera e microfone.
-
 Será necessário o uso de planilha eletrônica (o aplicativo pode ser de escolha do aluno) e ao longo da disciplina serão indicados aplicativos FOSS para outras análises.
 
 Turma Virtual do SIGAA para postagens de conteúdos e outras comunicações.
@@ -167,28 +171,11 @@ Site da disciplina: http://places.education
 
 Toda comunicação individual com a docente deverá acontecer por meio do email institucional do docente, deve conter no campo "assunto" o texto `&lt;Log-ADM&gt;`ou `&lt;Log-EPC&gt;` e deve ser assinada com seu nome completo. Por favor, utilize o email institucional para comunicação com o docente: renataoliveira@cefetmg.br
 
-Se o seu email não contempla alguma questão pessoal/individual, mas sim questionamentos e dúvidas sobre as atividades deste curso, por favor:
-
-1. Verifique se a sua dúvida já foi respondida em algum post no `Fórum de Dúvidas` no SIGAA.
-2. Se não houver discussões sobre o tópico em questão, faça um novo post no mesmo canal. 
-
-&gt; Compartilhar as dúvidas e responder os questionamentos dos colegas é um excelente meio de aprendizagem.
-
 ---
 
 ## Políticas institucionais e da disciplina
 
 .panelset[
-.panel[.panel-name[Como interagir?]
-
-A participação nesses encontros faz com que os estudantes tenham melhor desempenho. Entretanto, considerando todos os desafios proporcionados pelo ensino remoto, todo o conteúdo do curso será disponibilizado nas plataformas adotadas para condução das atividades. Você poderá participar das atividades remotamente usando o canal `Dúvidas` no `SIGAA`. Sua participação no Fórum será considerada para a avaliação do seu `Engajamento`. 
-
-1. Resposta a perguntas postadas pelos estudantes no canal `Dúvidas` no `SIGAA`. 
-2. Participação em discussões e trabalhos em grupo na sala de aula. 
-3. Identificação de problemas em relação à documentação apresentada.
-
-
-]
 
 .panel[.panel-name[Como agir?]
 
@@ -210,7 +197,7 @@ Os estudantes que forem considerados em violação da política de integridade a
 
 ## Organização das atividades:
 
-**Composição dos grupos de trabalho:** A turma deverá ser dividida em **sete grupos**. Esses grupos devem se manter para realização de todos os projetos e atividades da disciplina. A professora indicara a plataforma que permitirá o desenvolvimento das atividades/projeto de maneira colaborativa, com registro das discussões.  
+**Composição dos grupos de trabalho:** A turma deverá ser dividida em **grupos**. Esses grupos devem se manter para realização de todos os projetos e atividades da disciplina. A professora indicara a plataforma que permitirá o desenvolvimento das atividades/projeto de maneira colaborativa, com registro das discussões.  
 
 
 ---
@@ -309,6 +296,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
